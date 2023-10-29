@@ -15,14 +15,16 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    frb,
+    hulu,
+    boto,
+    bmc,
     carrent,
     jobit,
     tripguide,
     threejs,
+    python,
+    aws,
   } from "../assets";
   
   export const navLinks = [
@@ -57,9 +59,21 @@ import {
       title: "AWS Certified Developer",
       icon: web,
     },
+    {
+      title: "RedHat Certified Engineer",
+      icon: web,
+    },
   ];
   
   const technologies = [
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,16 +87,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -105,10 +111,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,55 +118,58 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Developer",
+      company_name: "First Republic Bank",
+      icon: frb,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2022 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained web applications using Python and React.js and other related technologies.",
+        "Built a drag-and-drop component-based internal application that offers a highly customizable user interface with a wide range of data visualization using React.js as the front-end and Python as the back-end.",
+        "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implemented responsive design and ensuring cross-browser compatibility.",
+        "Participated in code reviews and provided constructive feedback to other developers.",
+        "Developed and maintained ETL data load jobs written in Python for Stock Based Lending application on Linux systems to support internal and external vendors."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full Stack Developer",
+      company_name: "Hulu",
+      icon: hulu,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2020 - Oct 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed Hulu’s service and team registry using React and Redux",
+        "Provided on-call support to internal teams to fix authentication and policy related issues",
+        "Developed and maintained web applications using Python, Node.js, React.js",
+        "Developed web applications in Django frameworks Model View Control (MVC) architecture",
+        "Developed XML schema documents and implemented the framework for parsing XML documents"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Engineer",
+      company_name: "Boto3",
+      icon: boto,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2020 - Oct 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created and maintained web applications through the utilization of React.js and associated technologies",
+        "Engaged in collaborative efforts with multifaceted teams, encompassing designers, product managers, and fellow developers, to produce top-tier products",
+        "Executing responsive design practices and guaranteeing compatibility across various web browsers",
+        "Contributed to code assessments and delivering valuable input to fellow developers during the review process"
+      ],
+    },
+    {
+      title: "Enterprise Technical Support Engineer",
+      company_name: "BMC Software",
+      icon: bmc,
+      iconBg: "#E6DEDD",
+      date: "Aug 2016 - July 2018",
+      points: [
+        "Diagnosed and resolved complex technical issues, ranging from server and application performance to security concerns, using in-depth knowledge of Red Hat platforms",
+        "Collaborated closely with cross-functional teams to analyze, troubleshoot, and resolve critical customer incidents, ensuring minimal downtime and maximizing customer satisfaction",
+        "Delivered proactive support, including system performance monitoring, software updates, and patch management, to prevent potential issues and ensure system stability",
+        "Played a key role in identifying product enhancements and working closely with product development teams to address customer needs and improve software offerings"
       ],
     },
   ];
