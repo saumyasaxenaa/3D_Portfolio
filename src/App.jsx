@@ -14,7 +14,7 @@ const App = () => {
       <About />
       <Experience />
       <Tech />
-      <Works />
+      {/* <Works /> */}
       {/* <Feedbacks /> */}
       <di className="relative z-0">
         <Contact />
